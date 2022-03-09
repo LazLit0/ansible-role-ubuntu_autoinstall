@@ -13,13 +13,13 @@ password: "ubuntu"
 
 username: "ubuntu"
 
-ssh_public_key: ""
+ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDb0xDbsxFv8wCtNlUDasmB+8BpWh71Pfcdkns3SYouoRD/e485cljBenDA3Qa/l2NPpFTdIpiEfPtmECDnT7W2S3d2j8tF9MI3NdlqwnTBvPLLsQZ3EJVFv7nnXcOxcoH2ju1lAzNpis1VTfZfvyAlEEinRFcsGhFSuMy0utvVrMxEr73M7unjcHjl7/oWyVQtyp+LXgpBl+jTfdsHoVp/GM8meBl19Hn7Ex4ah5T0lFRm/aaXAzgYaHchWfa2MORXpM1Jgeh0w8AtrepqY6tdZx2MTv5sMMEqJJ0MXgcBLncqHjUqq71ARZn1hO6wG3weXBJt+YL3e6wR+cxYyZIBSOUPH2r4Gc+BX60VVS4vRMJRaepWwN/aFMN9EAI0owjHNdkPDCHanQV9X0eNOLu7b32gIPmegTn6tr7vQ+V8n+YVZUsokBk/RKO2/Raw1nIT2h77tT9NejnzLRWhOP9pG2z28XEoEP9VGBL01sKXBUxvd+Q3BoGoLHqHPwQufLE= lazlo@lazlo-ThinkPad-T430"
 
-pikvm_address: "pikvm.box"
+pikvm_address: "192.168.0.241"
 
 pikvm_username: "admin"
 
-pikvm_password: "admin"
+pikvm_password: "Uh?Sy:/9tVK^hIn9?gFf0^`a@e~$~IMS:"
 
 target_dir: "{{ ansible_env.HOME }}/.local/ansible_ubuntu-autoinstall"
 
@@ -27,4 +27,6 @@ ubuntu_gpg_key: 843938DF228D22F7B3742BC0D94AA3F0EFE21092
 
 grub_escape_seq: \\\
 
-enable_pikvm: false
+enable_pikvm: true
+
+boot_drive_serial: 
