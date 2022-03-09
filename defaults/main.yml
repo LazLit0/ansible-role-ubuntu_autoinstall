@@ -29,4 +29,4 @@ grub_escape_seq: \\\
 
 enable_pikvm: true
 
-boot_drive_serial: 
+boot_drive_serial: "S4EUNX0R541066P"
